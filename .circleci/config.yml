@@ -21,7 +21,7 @@ jobs:
           - run:
               name: Create Cloudformation
               command: |
-                aws s3 cloudformation deploy --stack-name my-stack  --template-file template.yml --region us-east-1
+                aws cloudformation deploy --stack-name my-stack  --template-file template.yml --region us-east-1
         
 
 
