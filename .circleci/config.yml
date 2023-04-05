@@ -24,7 +24,8 @@ jobs:
                 aws cloudformation deploy \
                 --template-file template.yml \ 
                 --stack-name myStack \ 
-                --region us-east-1
+                --region us-east-1 
+        
 
 
 # Sequential workflow
