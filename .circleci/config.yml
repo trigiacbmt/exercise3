@@ -23,7 +23,7 @@ jobs:
               command: |
                 aws cloudformation deploy \
                 --template-file template.yml \ 
-                --stack-name myStack \ 
+                --stack-name my-stack \ 
                 --region us-east-1
         
 
